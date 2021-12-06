@@ -4,6 +4,7 @@ A Docker distribution for a custom microfrontend for OpenMRS HIV Reference Imple
 
 ## Prerequisites
 Download and Install the below software the follow the below process: 
+- [Git] (https://git-scm.com/downloads)
 - [Docker](https://www.docker.com/products/docker-desktop)
 - [Node] (https://nodejs.org/en/download/)
 - [Visual Studtio] (https://code.visualstudio.com/download)
@@ -56,15 +57,15 @@ We're using `docker compose` to simplify the process of mounting the local `src`
 
 After running the commands, you will see
 
-Screen Shot 2021-12-03 at 00.01.03  
-
-![Building module](BUILDING.png)
+[Building starting]
 
 After about 5mins, your build will complete and you can now access the application at `localhost:8080/openmrs/spa/login`
 
-Screen Shot 2021-12-03 at 00.03.52
+![Screen Shot 2021-12-03 at 00 01 03](https://user-images.githubusercontent.com/4475142/144519142-f2955512-4a81-44ab-b6be-3bcf866efbcf.png)
 
-![Build complete](BUILD_COMPLETE.png)
+[Build complete]
+
+![Screen Shot 2021-12-03 at 00 03 52](https://user-images.githubusercontent.com/4475142/144519113-23128ca6-ccfc-49ec-8c47-3899ea9d84be.png)
 
 ## Development process
 
