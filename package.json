@@ -1,6 +1,6 @@
 {
   "name": "openmrs-ohri-app",
-  "version": "0.6.4",
+  "version": "0.6.5",
   "description": "A custom microfrontend for OpenMRS HIV Reference Implementation (OHRI)",
   "browser": "dist/openmrs-ohri-app.js",
   "main": "src/index.ts",
@@ -19,7 +19,7 @@
     "test": "jest --config ./jest.config.js --passWithNoTests",
     "coverage": "npm test -- --coverage",
     "badges": "npm run coverage && jest-coverage-badges --output './badges' ",
-    "docker": "docker run -p 8080:8080 -p 8081:8081 histacohri/docker-openmrs-esm-ohri:v.6 npx openmrs develop --backend https://ohri-working.globalhealthapp.net",
+    "docker": "docker run -p 8080:8080 -p 8081:8081 histacoohri/docker-openmrs-esm-ohri:v0.6.1 npx openmrs develop --backend https://ohri-dev.globalhealthapp.net", 
     "docker:dev": "docker compose up"
   },
   "browserslist": [
